@@ -1,0 +1,92 @@
+.heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    background: #AF7EEB;
+    border-radius: 5px;
+}
+
+form{
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: #FFF8DC;
+    border: 1px solid #AF7EEB;
+}
+
+form p{
+    color: red;
+    margin: 0;
+}
+
+.task_input{
+    width: 73%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid #AF7EEB;
+}
+
+.add_btn{
+    
+    background: #AF7EEB;
+    color: AF7EEB;
+    border: 1px solid #AF7EEB;
+    height: 39px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: .5s ease;
+    margin-left: 50px;
+}
+.add_btn:hover{
+    background: #8b50d4;
+    border: 1px solid #8b50d4;
+}
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr{
+    font-size: 19px;
+    color: #8b50d4;
+}
+
+th, td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+td{
+    color: black;
+}
+
+td:hover{
+    background: #E9E9E9;
+}
+.task{
+    text-align: left;
+}
+.delete{
+    text-align: center;
+}
+
+.delete a{
+    color: white;
+    background: #a52a2a;
+    height: 39px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: .5s ease;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.delete a:hover{
+    background: red;
+}
